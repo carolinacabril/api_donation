@@ -1,7 +1,11 @@
 module.exports = {
-    username: "your database user",
-    password: "your database password",
-    database: "your database name",
-    host: "127.0.0.1",
-    dialect: "mysql", //MariaDB, SQLite, PostgreSQL MSSQL
+    username:'root',
+    password:'rato1994@',
+    database:'doacao',
+    host:'localhost',
+    dialect:'mysql',
+    define:{
+        timestamps:true,
+        underscored:true
+    }
 }
